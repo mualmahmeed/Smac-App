@@ -1,0 +1,6 @@
+framework module Pods_smac {
+  umbrella header "Pods-smac-umbrella.h"
+
+  export *
+  module * { export * }
+}
