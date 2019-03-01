@@ -16,6 +16,8 @@
 		C124097822237C1C0064B39B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124097722237C1C0064B39B /* ChatVC.swift */; };
 		C124097A22237C410064B39B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124097922237C410064B39B /* ChannelVC.swift */; };
 		C181D7942221A88600CB72DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C181D7932221A88600CB72DA /* SWRevealViewController.m */; };
+		C1FC29592228EEE1005F4D6F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC29582228EEE1005F4D6F /* Constants.swift */; };
+		C1FC295B2228F895005F4D6F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC295A2228F895005F4D6F /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		C181D7912221A88500CB72DA /* smac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smac-Bridging-Header.h"; sourceTree = "<group>"; };
 		C181D7922221A88600CB72DA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		C181D7932221A88600CB72DA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C1FC29582228EEE1005F4D6F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1FC295A2228F895005F4D6F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		C113810E221F104F0037D19E /* smac */ = {
 			isa = PBXGroup;
 			children = (
+				C1FC29572228EE9C005F4D6F /* Utilities */,
 				C124097622237BD20064B39B /* Model */,
 				C124097522237BC70064B39B /* View */,
 				C124097422237BB50064B39B /* Controller */,
@@ -104,6 +109,7 @@
 			children = (
 				C124097722237C1C0064B39B /* ChatVC.swift */,
 				C124097922237C410064B39B /* ChannelVC.swift */,
+				C1FC295A2228F895005F4D6F /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +137,14 @@
 				C181D7912221A88500CB72DA /* smac-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1FC29572228EE9C005F4D6F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C1FC29582228EEE1005F4D6F /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +268,11 @@
 			files = (
 				C124097A22237C410064B39B /* ChannelVC.swift in Sources */,
 				C124097822237C1C0064B39B /* ChatVC.swift in Sources */,
+				C1FC295B2228F895005F4D6F /* LoginVC.swift in Sources */,
 				C107B18E2226E2A3009C1010 /* GradientView.swift in Sources */,
 				C1138110221F104F0037D19E /* AppDelegate.swift in Sources */,
 				C181D7942221A88600CB72DA /* SWRevealViewController.m in Sources */,
+				C1FC29592228EEE1005F4D6F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
